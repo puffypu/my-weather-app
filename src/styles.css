@@ -1,0 +1,14 @@
+body {
+  background: linear-gradient(to top, #8949a6, #9c7adc);
+  height: 100vh;
+  color: #ffffff;
+  font-family: Roboto, sans-serif;
+}
+.central-app {
+  background: linear-gradient(to top, #8b4ba7 1.5%, #1f2649 25%);
+  max-width: 600px;
+  padding: 30px;
+  margin: 70px auto;
+  border-radius: 16px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+}
