@@ -19,6 +19,10 @@ header {
   border-bottom: 1px solid #ddb130;
   padding: 30px;
 }
+.weather-app-data {
+  display: flex;
+  justify-content: space-between;
+}
 .form-input {
   background: #9c7adc;
   border: none;
