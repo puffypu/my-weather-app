@@ -15,12 +15,13 @@
   <body>
     <div class="central-app">
       <header>
-        <form>
+        <form id="search-form">
           <input
             type="search"
             placeholder="Enter your city, please"
             required
             class="form-input"
+            id="search-form-input"
           />
           <input type="submit" value="Search" class="form-button" />
         </form>
@@ -28,7 +29,7 @@
       <main>
         <div class="weather-app-data">
           <div>
-            <h1 class="weather-app-city">Nigeria</h1>
+            <h1 class="weather-app-city" id="city">Nigeria</h1>
             <p>
               Sunday 19:05, very cloudy <br />
               Humidity: <strong>70%</strong>, Wind: <strong>3.13km/h</strong>
@@ -49,5 +50,6 @@
         <a href="https://fallenleaf.netlify.app/">Netlify</a>
       </footer>
     </div>
+    <script src="src/script.js"></script>
   </body>
 </html>
