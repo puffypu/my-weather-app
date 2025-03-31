@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=h, initial-scale=1.0" />
+    <meta name="viewport" content="width=", initial-scale=1.0" />
     <link rel="stylesheet" href="src/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -32,8 +32,9 @@
           <div>
             <h1 class="weather-app-city" id="city"></h1>
             <p>
-              Sunday 19:05, very cloudy <br />
-              Humidity: <strong>70%</strong>, Wind: <strong>3.13km/h</strong>
+              <span id="time"></span>, <span id="description"></span><br />
+              Humidity: <strong id="humidity"></strong>, Wind:
+              <strong id="wind"></strong>
             </p>
           </div>
           <div class="weather-app-temperature-container">
